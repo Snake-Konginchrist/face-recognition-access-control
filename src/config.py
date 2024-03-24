@@ -1,0 +1,4 @@
+# config.py
+APP_ID = '24172671'
+API_KEY = 'F8XFQei9UbYMNuxTqwizyHTZ'
+SECRET_KEY = 'DurlqlB9Qx7XV30MpMKStXsDdWGwTHTT'
