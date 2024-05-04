@@ -44,3 +44,8 @@ python src/main.py
 
 ### 许可证
 [MIT](LICENSE)
+
+## 联系方式
+- GitHub: [Snake-Konginchrist](https://github.com/Snake-Konginchrist)
+- Gitee: [Snake-Konginchrist](https://gitee.com/Snake-Konginchrist)
+- Email: developer@skstudio.cn（优先）
