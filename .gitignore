@@ -110,7 +110,7 @@ env.bak/
 venv.bak/
 
 # Ignore config.py for sensitive credentials
-config.py
+src/config.py
 
 # Spyder project settings
 .spyderproject
