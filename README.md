@@ -64,4 +64,4 @@ python src/main.py
 
 - GitHub: [Snake-Konginchrist](https://github.com/Snake-Konginchrist)
 - Gitee: [Snake-Konginchrist](https://gitee.com/Snake-Konginchrist)
-- Email: developer@skstudio.cn (优先)
+- 邮箱: developer@skstudio.cn (优先)
