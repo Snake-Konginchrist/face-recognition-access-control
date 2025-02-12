@@ -2,3 +2,4 @@ baidu-aip
 chardet
 opencv-python
 pillow
+python-dotenv

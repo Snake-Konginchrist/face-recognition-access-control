@@ -21,5 +21,7 @@ class TkinterDisplay:
         self.lbl_video.configure(image=tk_img)
         self.lbl_video.update()
 
+        self.root.bind('<q>', lambda e: self.root.destroy())  # 添加键盘事件绑定
+
     def run(self):
         self.root.mainloop()

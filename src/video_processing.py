@@ -28,7 +28,7 @@ def video_capture():
     # 创建人脸检测器对象
     fd = FaceDetector()
 
-    # 创建一个用于显示视频帧的 Tkinter 窗口对象，窗口标题为“简易人脸识别门禁（明德二十八日制）”，窗口大小为 800x600
+    # 创建一个用于显示视频帧的 Tkinter 窗口对象，窗口标题为"简易人脸识别门禁（明德二十八日制）"，窗口大小为 800x600
     display = TkinterDisplay(title='简易人脸识别门禁（明德二十八日制）', width=800, height=600)
 
     # 开启无限循环来持续读取视频帧
@@ -49,10 +49,6 @@ def video_capture():
 
         # 将处理后的帧显示在 Tkinter 窗口中
         display.display_frame(frame)
-
-        # 检查键盘输入，如果按下 'q' 键，则退出循环
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
 
     # 释放摄像头资源
     cap.release()

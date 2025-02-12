@@ -33,13 +33,14 @@ pip install -r requirements.txt
 
 ### 配置
 
-在 `src/config.py` 文件中配置你的百度 AI 平台的 `APP_ID`、`API_KEY` 和 `SECRET_KEY`：
+在 `.env` 文件中配置你的百度 AI 平台的认证信息：
+[百度智能云 AI 人脸识别平台](http://console.bce.baidu.com/ai-engine/face/overview/index)
 
-```python
-# config.py
-APP_ID = '你的APP_ID'
-API_KEY = '你的API_KEY'
-SECRET_KEY = '你的SECRET_KEY'
+```bash
+# .env
+BAIDU_APP_ID=你的APP_ID
+BAIDU_API_KEY=你的API_KEY
+BAIDU_SECRET_KEY=你的SECRET_KEY
 ```
 
 请确保在百度 AI 开发者平台获取这些信息并正确配置。
@@ -65,3 +66,4 @@ python src/main.py
 - GitHub: [Snake-Konginchrist](https://github.com/Snake-Konginchrist)
 - Gitee: [Snake-Konginchrist](https://gitee.com/Snake-Konginchrist)
 - 邮箱: developer@skstudio.cn (优先)
+- 商务合作请联系邮箱：contact@skstudio.cn 或手机号：18859972561（微信同号）
